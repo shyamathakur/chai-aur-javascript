@@ -1,10 +1,10 @@
 const accoundId = 1234;
 let userName = "shyama"
-var password = "ijfe12"
+var password = "ijfe12" // prefer not to use var because of issue in block scope and functonal scope
 city = "indore"
 let userClass; //value na dene pr result undefined ayega
 
-// accoundId = 12; // it's block scope so you can not change value
+// accoundId = 12; // it's block scope so you can not change value 
 userName = "thakur"
 password = "23232"
 city = "jaipur"
